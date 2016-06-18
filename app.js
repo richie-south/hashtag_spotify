@@ -47,7 +47,7 @@ const server = app.listen(3334, function() {
 });
 
 every('1 hour').do(() => {
-    spotifyData.fetchNewData(false, ['spotify'])
+    spotifyData.fetchNewData(['spotify'])
         .then(result => console.log('new data added'))
         .catch(e => console.log(e));
 });
