@@ -1,0 +1,33 @@
+
+.progress {
+    width: 54vw;
+}
+
+#images {
+    margin-bottom: 80px;
+}
+
+.infoWrap {
+    height: 40px;
+}
+
+#musicBar {
+    height: 80px;
+}
+
+#loadMore {
+    bottom: 96px
+}
+
+#songName{
+    max-width: 100px;
+}
+
+#albumName{
+    max-width: 100px;
+}
+
+
+
+.grid-image-item { width: 68px; height: 68px; }
+.grid-image-item img { width: 68px; height: 68px; }

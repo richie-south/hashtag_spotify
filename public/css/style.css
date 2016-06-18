@@ -1,0 +1,99 @@
+body {
+    background-color: #263238;
+}
+
+.grid-image-item { width: 100px; height: 100px; }
+.grid-image-item img { width: 100px; height: 100px; }
+
+#musicBar {
+    background-color: #FFFFFF;
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+
+    display: flex;
+    align-items: center;
+    box-shadow: 14px 0 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#gridWrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#images{
+    margin-bottom: 70px;
+}
+
+#loadMore{
+    position: fixed;
+    bottom: 80px;
+    left: 16px;
+    width: 250px;
+}
+
+.aline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.loadMoreBtn{
+    width: 130px;
+}
+
+.alineItem{
+    max-width: 50%;
+
+}
+
+.pingText{
+    color: rgb(255,64,129);
+}
+
+.Aligner-item {
+  max-width: 50%;
+}
+
+.infoWrap{
+    height: 50px;
+}
+
+.playPauseBtn {
+    font-size: 48px;
+    max-width: 50%;
+
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.progress {
+    width: 80vw;
+    float:left;
+}
+
+#songName{
+    float:left;
+    max-width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#albumName{
+    float:left;
+    max-width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#externalUrl{
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: 16px;
+
+}

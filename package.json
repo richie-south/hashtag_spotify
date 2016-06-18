@@ -1,0 +1,32 @@
+{
+  "name": "hashtag_music",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rs222kn/hashtag_music.git"
+  },
+  "author": "richard söderman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rs222kn/hashtag_music/issues"
+  },
+  "homepage": "https://github.com/rs222kn/hashtag_music#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "client-sessions": "^0.7.0",
+    "co": "^4.6.0",
+    "cron": "^1.1.0",
+    "express": "^4.13.4",
+    "fs-promise": "^0.5.0",
+    "mongoose": "^4.4.20",
+    "oauth": "^0.9.14",
+    "request": "^2.72.0",
+    "schedule": "^0.1.0",
+    "spotify-web-api-node": "^2.3.0"
+  }
+}
