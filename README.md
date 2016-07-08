@@ -1,5 +1,6 @@
 # hashtag_spotify
 
+Searches Twitter for the hashtag 'spotify' gets tweets that contains Spotify track urls and shows/plays them on the site.
 
 ## SETUP
 - Open terminal in projekt folder and run 'npm install'
