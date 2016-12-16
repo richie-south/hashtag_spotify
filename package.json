@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/rs222kn/hashtag_music#readme",
   "dependencies": {
     "body-parser": "^1.15.1",
+    "clear": "0.0.1",
     "client-sessions": "^0.7.0",
     "co": "^4.6.0",
     "cron": "^1.1.0",
@@ -28,5 +30,8 @@
     "request": "^2.72.0",
     "schedule": "^0.1.0",
     "spotify-web-api-node": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.2"
   }
 }
