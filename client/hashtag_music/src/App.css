@@ -1,0 +1,46 @@
+
+.master-root {
+  /*margin: 20px auto;*/
+  position: relative;
+  min-height: 300px;
+  /*max-height: 100px;*/
+  height: calc(100vh - 64px - 64px);
+  /*width: 300px;*/
+  overflow: hidden;
+  border: 1px solid #e5e5e5;
+}
+
+.card {
+  /* background-color: white; */
+  /* background-size: cover; */
+  position: absolute;
+  /* background: #F8F3F3; */
+  height: 305px;
+  /* width: 260px; */
+  /* margin: 0 auto; */
+  width: 300px;
+  -webkit-transition: box-shadow .3s;
+  transition: box-shadow .3s;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  cursor: pointer;
+}
+
+.animate {
+  transition: transform .3s;
+  box-shadow: none;
+}
+
+.inactive {
+  box-shadow: none;
+}
+
+.muidocs-icon-{
+  font-family: 'material-ui-icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
