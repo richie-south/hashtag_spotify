@@ -3,7 +3,7 @@ import FontIcon from 'material-ui/FontIcon'
 import {BottomNavigation, BottomNavigationItem} from 'material-ui/BottomNavigation'
 import Paper from 'material-ui/Paper'
 import LinearProgress from 'material-ui/LinearProgress'
-import connect from '../connect/connect'
+import connect from 'react-redux-connectme'
 import { Audio } from 'redux-audio'
 import ReactDOM from 'react-dom'
 
@@ -95,10 +95,10 @@ class MusicBar extends Component {
   }
 }
 
-export default connect((state) => ({
+export default connect(MusicBar, (state) => ({
   cards: state.cards,
   cardIndex: state.cardIndex,
   audio: state.audio,
   audioPause: state.audioPause,
   audioPlay: state.audioPlay,
-}), MusicBar)
+}))

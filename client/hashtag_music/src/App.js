@@ -6,7 +6,7 @@ import Swiper from './components/Swiper'
 import MusicBar from './components/MusicBar'
 import DrawerMenu from './components/DrawerMenu'
 import ImageList from './components/ImageList'
-import connect from './connect/connect'
+import connect from 'react-redux-connectme'
 import './App.css'
 
 class App extends Component {
@@ -74,11 +74,11 @@ class App extends Component {
   }
 }
 
-export default connect((state) => ({
+export default connect(App, (state) => ({
   cards: state.cards,
   savedCards: state.savedCards,
   removeFromSavedTracks: state.removeFromSavedTracks,
   addToSavedTracks: state.addToSavedTracks,
   cardIndex: state.cardIndex,
   incrementCardIndex: state.incrementCardIndex,
-}), App)
+}))
